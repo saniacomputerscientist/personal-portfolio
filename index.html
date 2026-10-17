@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charsket="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px; /* YEH LINE AAPKE TEXT KO DEEWAR SE DOOR KAREGI */
+}
+
+    }
+
+    /* Links ko chota karne aur laptop par right side par rakhne ke liye */
+    .portfolio-nav {
+        display: flex;
+        justify-content: flex-end; /* Right side alignment */
+        padding: 20px 40px 0 0; /* Upar aur right side se spacing */
+        gap: 15px; /* Dono links ke darmiyan fasla */
+    }
+
+    /* Links ko chota aur pyara button banane ke liye style */
+    .portfolio-nav a {
+        text-decoration: none;
+        font-size: 14px; /* Size chota kar diya ha */
+        font-weight: bold;
+        color: #007bff;
+        padding: 6px 12px; /* Dabba chota karne ke liye padding kam kar di */
+        border: 1px solid #007bff;
+        border-radius: 4px;
+        background-color: #ffffff;
+        transition: 0.2s;
+    }
+            /* Mobile par heading ka size chota karne ke liye taake ek line mein aaye */
+        h1 {
+            font-size: 24px !important;
+            white-space: nowrap; /* Yeh line text ko zabardasti tootne se rokegi */
+        }
+
+
+    .portfolio-nav a:hover {
+        background-color: #007bff;
+        color: white;
+    }
+
+    /* --- MOBILE VIEW (768px se kam screen) --- */
+    @media (max-width: 768px) {
+        .portfolio-nav {
+            justify-content: flex-end; /* Mobile par bhi bilkul right side par rahenge */
+            padding: 15px 15px 0 0; /* Mobile ke mutabiq spacing */
+            gap: 10px;
+        }
+        .portfolio-nav a {
+            font-size: 12px; /* Mobile par aur chote ho jayenge */
+            padding: 5px 10px;
+        }
+    }
+</style>
+
+
+
+</head> 
+<body>
+    <div style="text-align: right; padding: 50px  20px 0 0;">
+    <div class="portfolio-nav">
+    <a href ="contactform.html" style="font-size: 22px; font-weight: bold; margin-right: 20px;"> Contact Me</a>
+        <a href="htmlhome.html" style="font-size: 22px; font-weight: bold;"> My Projects</a>
+        </div>
+        </div>
+        <center>
+            <div class="portfolio-content">
+<div class="portfolio-content">
+<div style="text-align: centre;  width: 100%; padding: 60px, 20px; background color: #f9f9f9; margin-bottom: border-radius:8px">
+     <h1 style="font-size: 50px; font-weight: 800;font-family: sans-serif; color: #333; margin-bottom: 10px;"><big>
+         Hi! I am Sania 👋</big>
+     </h1>
+     <p style="font-size: 20 px; font-family: sans-serif; color: #666; font-weight: bold;">
+        Welcome to my Web Development journey
+     </p>
+</div> 
+</div>
+</center>
+<hr>
+<h2><b>Introduction</b></h2>
+<br/>
+<p>"Hi, I am Sania, and this is the official startup of my web development journey. I have a deep passion for technology and a strong interest in learning how to build interactive, beautiful, and user-friendly websites. Right now, I am focusing on mastering the fundamentals of coding and turning my creative ideas into real-world digital experiences. As a beginner, I am excited to learn, grow, and take my first steps toward becoming a professional web developer!"</p>
+<br/>
+<hr/>
+<h2> <b> Education </b></h2>
+<br/>
+<p>"I have built a strong academic foundation in computing by completing my Associate Degree Program in Computer Science (ADP CS) from the prestigious University of the Punjab. Driven by a passion for continuous learning and deeper technical expertise, I am expanding my technical skills through self-paced web development while preparing to advance my higher education in Computer Science "</p>
+</br>
+<ul>
+    <li> Object-Oriented programing(OOP)</li>
+    <li>Data Structures </li>
+    <li>Database Management system (DBMS & ADBMS)</li>
+     <li> Artificial intelligence (AI)</li>
+     <li> Web technologies</li>
+      <li> Information security</li>
+     <li> Software Engineering</li>
+     <li> Mobile Application development</li>
+      <li> Theory of automata</li>
+    <li> Core Computing fundamentals</li>
+</ul>
+<hr/>
+<h3><b>Technical skills</b></h3>
+<ul>
+<li> HTML5 (Web structure,Sementic elements, and forms)</li>
+</ul>
+<br/>
+<hr/>
+
+<br/>
+<!-- <table>
+        </tr>  <thead>
+     <caption> <b> Student data</b></caption>
+     <th colspan="3"> Student Data</th>
+    <tr>
+>
+        <th>
+            Name
+        </th>
+        <th>
+    Roll No
+        </th>
+        <th>
+            Subject
+        </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>
+            sania
+        </td>
+        <td>
+            07
+     </td>
+        <td>
+            Computer Science
+        </td> 
+         </tbody> 
+        
+    </tr> 
+ </table>  
+ <h3> Fill in the blanks</h3>
+ <br/>
+  <form action="/action.php">
+    <input type="text" placeholder="Search here">
+    <input type="text" placeholder="username">
+    <br/>
+    <input type="password" placeholder="password">
+    <br/>
+    <h3> Select Class</h3>
+    <br/>
+    <h3> Select your class</h3>
+    <br/>
+    <label for="101">
+    <input type="radio" value="class XI" name="class" id="101"> class XI
+    </label>
+    <label for="102">
+    <input type="radio" value="class XII" name="class" id="102"> class XII
+    </label>
+    <br/>
+        AGAIN PRACTICE 
+        <br/>
+        <h3> fill all blanks</h3>
+        <br/>
+         <form action="/action.php">
+            <input type="text" placeholder="Search from Google">
+            <br/>
+            <input type="password" placeholder="password">
+            <br/>
+            <h3>Select your Status</h3>
+            <br/>
+            <label for="107">
+            <input type="radio" value="present" name="attandance"  id="107"> present
+            </label>
+            <label for="108">
+            <br/>
+            <input type="radio" value="Absent" name="attandance" id="108"> Absent
+            </label>
+        </form>
+     </Table> 
+      <p>NEXT PRACTICE FOR  CHECKBOXES</p>
+      <br/>
+     <form action="/action,php">
+        <h2> Select your favorite subject</h2>
+        <label for="Math">
+        <input type="checkbox" value="Math" name="Subject" id="101"> Math
+        </label>
+        <br/>
+        <label for="Computer Science">
+            <input type="checkbox" value="Computer Science" name="Subject" id="102">Computer Science
+            </label>
+        <br/>
+                    <label for="Physics">
+            <input type="checkbox" value="Physics" name="Subject" id="103">Physics
+            </label>
+            <br/>
+                    <label for="Chamistry">
+            <input type="checkbox" value="Chamistry" name="Subject" id="104">Chamistry
+            </label>
+            <br/>
+                    <label for="Biology">
+            <input type="checkbox" value="Biology" name="Subject" id="102"> Biology
+            </label>
+            <br>
+            <h4> Feedback</h4>
+            <br/>
+            <textarea name="feedback" id="110" placeholder="pleale give your valueable feedback"  rowss="6"> feedback</textarea>
+            <br/> -->
+             <!-- <br>
+             <h3>Select your city</h3>
+             <select name="city">
+                <option value="Chakwal">Chakwal</option>
+                <option value="Rawalpindi"> Rawalpindi</option>
+                                <option value="Gujrat"> Gujrat</option>
+
+             </select>
+             <br/>
+             <br/>
+ <b><input type="Submit" value="Submit"></b>
+            </form>
+            <br>
+            <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=9Upqdky_yZAAJUsT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <br><br>
+            <h2> Wikipedia</h2>
+            <br><br>
+            <iframe src="https://en.wikipedia.org/wiki/HTML"  height="600"></iframe>
+
+
+
+
+        </label> -->
+        <!-- <div style="text-align: center;">
+<Centre>
+    <h2> Contact Me</h2> -->
+    <!-- <form>
+        <label> <b>Your Name:</b></label><br>
+        <input type="text" placeholder="Enter your full name" height="500">
+        <br><br>
+        <label><b> Your Email</b></label>
+        <br>
+        <input type="email" placeholder="Enter your email address height=500">
+        <br><br>
+        <label><b>Reason for Contact </b></label><br>
+        <br>
+        <select>
+            <option> Website Development</option><br>
+            <option> Freelance Work</option><br>
+            <option> Job Opportunity</option><br>
+            <option> Project Collaboration</option><br>
+            <option> Website Help / Bug fix</option><br>
+            <option> Just saying Hi !</option><br>
+            <option> Other ( specify in massege)</option>
+<br><br>
+        </select>
+        <br><br>
+        <label> <b> Your Massege:</b></label><br>
+        <br>
+        <textarea rows="5" cols="40" placeholder="Type your message here....."></textarea>
+        <br><br>
+        <input type="submit" Value="Submit">
+        
+    </form>
+</Centre>   
+</div> -->
+
+</body>
+<br/>
+
+</body>
+</html>

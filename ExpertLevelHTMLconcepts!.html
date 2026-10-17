@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Expert-Level: Forms & Multimedia.</title>
+       <style>
+        body{ 
+            padding: 15px;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h1>Expert-Level HTML5: Comprehensive Forms, Table & Media Components </h1>
+    </center>
+    <hr>
+    <h2>Lists in HTML</h2>
+    <p>  Lists are used to represent real life data.</p><br>
+    <ol>
+ <li> <b>Unordered List</b><br></li>
+    &lt;ul&gt;<br>
+      &lt;li&gt; Apple &lt;/li&gt;<br>
+     &lt;li&gt; Mango &lt;/li&gt;<br>
+      &lt;/ul&gt;<br>
+      <b>For example:</b><ul>
+        <li>Apple</li>
+        <li>Mango</li>
+      </ul><br>
+      <li><b>Ordered List</b></li>
+      &lt;ol&gt;<br>
+      &lt;li&gt; Apple &lt;/li&gt;<br>
+     &lt;li&gt; Mango &lt;/li&gt;<br>
+      &lt;/ol&gt;<br>
+       <b>For example:</b><ol>
+        <li>Apple</li>
+        <li>Mango</li>
+     </ol>
+     </ol>
+<h2>Tables in HTML</h2>
+<p>Tables are used to represent real life table data.</p>
+   <b>&lt;tr&gt;: </b> Used to display table row.<br>
+      <b>&lt;td&gt;: </b> Used to display table data.<br>
+         <b>&lt;th&gt;: </b> Used to display table header.<br>
+         <h2> Tables in HTML</h2>
+         &lt;table&gt;<br>
+                  &lt;tr&gt;<br>
+                           &lt;th&gt; Name&lt;/th&gt;<br>
+                          &lt;th&gt; Roll No&lt;/th&gt;<br>
+                          &lt;/tr&gt;<br>
+              &lt;tr&gt;<br>
+   &lt;td&gt; Name&lt;/td&gt;<br>
+  &lt;td&gt; Roll No&lt;/td&gt;<br>
+                &lt;/tr&gt;<br>
+                         &lt;/table&gt;<br>
+                         <h3>For Example:</h3>
+       <div style="overflow-x: auto">
+    <table border="1" align="center" width="70%" cellpadding="10" cellspacing="0">
+              <caption><b><big>Student data</b><br></big></caption>
+                        
+                            <tr>
+                            <th>Name</th>
+                            <th>Roll No</th>
+                            </tr>
+                            <tr>
+                                <td>Sania</td>
+                                <td>07</td>
+                            </tr>
+    </table>
+    <h3><big>Caption in Tables</big></h3>
+<p>The &lt;caption&gt; tag provides a title or brief summary for a table. It must be placed immediately after the opening &lt;table&gt;tag.<br></p>
+<b>For Example:</b>
+
+<table>
+     <div style="overflow-x: auto">
+    <table border="1" align="center" width="70%" cellpadding="10" cellspacing="0">
+  <caption><b>Monthly Expense Report</b></caption>
+  <tr>
+    <th>Item</th>
+    <th>Cost</th>
+  </tr>
+  <tr>
+    <td>Rent</td>
+    <td>$1,200</td>
+  </tr>
+</table>
+<h3><big>Figcaption </big></h3>
+<p>The &lt;figcaption&gt; tag is an HTML element used to provide a visible title or description for media contained within a &lt;figure&gt; element.</p>
+<b>For Example:</b>
+<figure>
+  <img src="https://media.istockphoto.com/id/1381637603/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=w64j3fW8C96CfYo3kbi386rs_sHH_6BGe8lAAAFS-y4=" alt="Beautiful landscape with mountains" width="300" height="200">
+  <figcaption>Figure 1: A beautiful view of the mountains during sunset.</figcaption>
+</figure>
+<h2>thead & tbody in Tables</h2>
+<p>&lt;thead&gt; to wrap table head</p>
+<p>&lt;tbody&gt; to wrap table body</p><br>
+<h2>Colspan attribute</h2>
+<p>colspan="n"<br>
+Used to create cells which spans over multiple columns.</p>
+<b>For Example:</b>
+    <table border="1" cellpadding="8" cellspacing="0">
+  <!-- Pehli Row (Header) -->
+  <tr>
+    <th>Item Name</th>
+    <th>Price</th>
+  </tr>
+  
+  <!-- Doosri Row -->
+  <tr>
+    <td>Milk</td>
+    <td>$2.50</td>
+  </tr>
+  
+  <!-- Teesri Row (Colspan Ka Istemal) -->
+  <tr>
+    <!-- Yeh cell 2 columns ki jagah akela le lega -->
+    <td colspan="2" align="center">Out of Stock</td>
+  </tr>
+</table>
+<h4><big>Rowspan attribute</big></h4>
+<p>The rowspan attribute specifies the number of rows a table cell should span vertically (merging cells downward).</p>
+<b>For Example:</b><br>
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Day</th>
+    <th>Timing</th>
+  </tr>
+  <tr>
+    <!-- Yeh cell niche ki taraf 2 rows ki jagah akela le lega -->
+    <td rowspan="2">Monday</td>
+    <td>9:00 AM - Morning Shift</td>
+  </tr>
+  <tr>
+    <!-- Monday waala cell upar se niche aa raha hai, isliye yahan sirf timing likhi -->
+    <td>2:00 PM - Evening Shift</td>
+  </tr>
+</table>
+<h2>Forms in HTML</h2>
+<p>Forms are used to collect data from the user.<br>
+Eg-signup/login/help request/contact me<br>
+&lt;form&gt;<br>
+form content<br>
+&lt;/form&gt;<br>
+<h3>Actions in Form</h3>
+<p>
+The action attribute in an HTML &lt;form&gt; element specifies the URL of the backend server or script where the form's data should be sent when a user clicks the submit button.</p>
+<b>For Example:</b>
+<form action="/submit-form-endpoint" method="POST"><br>
+  <label for="username">Username:</label><br>
+  <input type="text" id="username" name="username"><br>
+  
+  <button type="submit">Submit</button>
+</form>
+<h3>Form Element: Input</h3>
+<p>&lt;input type="text" placeholder="Enter Name"&gt;</p><br>
+<b>Example:</b>
+<input type="text" placeholder="Enter Name">
+<h3> Label</h3>
+<p>The &lt;label&gt;tag provides a visible caption or name for a form control, making it easier for users to understand and click.</p>
+<b>  Code Example: </b><br>
+    &lt;label for="101"&gt;
+    &lt;input type="radio" value="class XI" name="class" id="101"&gt;class XI<br>
+    &lt;/label&gt;<br>
+    &lt;label for="102"&gt;<br>
+    &lt;input type="radio" value="class XII" name="class" id="102"&gt;class XII<br>
+    &lt;/label&gt;<br>
+    
+<h5><b> Select your class</b></h5>
+    <br/>
+    <label for="101">
+    <input type="radio" value="class XI" name="class" id="101"> class XI
+    </label><br>
+    <label for="102">
+    <input type="radio" value="class XII" name="class" id="102"> class XII
+    </label>
+    <h3>Class & Id</h3>
+<p>A class is reusable and targets multiple elements, while an id is unique and targets only one specific element on the page.<br><br>
+&lt;div id="id1" class="group1"&gt;<br>
+&lt;/div&gt;<br>
+&lt;div id="id2" class="group1"&gt;<br>
+&lt;/div&gt;<br>
+<h2>Checkboxes</h2>
+<p>An HTML checkbox is an input element that allows users to select one or more options from a list.<br><br>
+    <b> Code Example:</b><br><br>
+    &lt;input type="checkbox" id="terms"&gt; &lt;label for="terms"&gt;I agree to the terms&lt;/label&gt;</p><br>
+<b>Live Preview:</b>
+<input type="checkbox" id="terms"> <label for="terms">I agree to the terms</label></p>
+<h2>Textarea</h2>
+<p>The &lt;textarea&gt;tag is used to create a multi-line text input box on a website for long text like comments or messages.<br><br>
+<b> Code Example:</b>
+&lt;textarea name="feedback" id="feedback" placeholder="please add feedback"&gt;&lt;/textarea&gt;<br>
+<h5><b>live preview:</b></h5>
+<textarea name="feedback" id="feedback" placeholder="please add feedback"></textarea><br>
+<h3>Select</h3>
+<p>The HTML &lt;select&gt; tag creates a dropdown list that allows users to choose an option from list.</p><br>
+<b>Code Example:</b><br><br>
+&lt;select name="cities"&gt;<br>
+  &lt;option value="lahore"&gt;Lahore&lt;/option&gt;<br>
+  &lt;option value="karachi"&gt;Karachi&lt;/option&gt;<br>
+  &lt;option value="islamabad"&gt;Islamabad&lt;/option&gt;<br>
+&lt;/select&gt;<br>
+<h4><b>Live preview: Select your city</b></h4><br>
+
+<select name="cities">
+  <option value="lahore">Lahore</option>
+  <option value="karachi">Karachi</option>
+  <option value="islamabad">Islamabad</option>
+</select>
+<h2>iftrame Tag</h2>
+<p>Website inside website</p>
+&lt;iframe src="link"&gt; Link &lt;/option&gt;<br>
+
+
+<h2>Video Tag</h2>
+<p>The &lt;video&gt; tag in HTML is used to embed video content directly into a webpage. It provides a native media player without requiring external plugins</p><br>
+&lt;video src="myVid.mp4"&gt; My video&lt;/video&gt;<br>
+<b><i>Note: You can use any video URL(link) or local file path inside the src attribute to play your desired video</i></b>
+<h3>Attributes</h3>
+<ul>
+    <li>controls</li>
+ <li>height</li>
+     <li>width</li>
+    <li>Loop</li>   
+       <li>autoplay</li>
+
+</ul>
+
+
+
+

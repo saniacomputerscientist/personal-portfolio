@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Crash Course for students</title>
+    <style>
+        /* Pura Main Page Layout */
+        .main-container {
+            display: flex;
+            min-height: 100vh;
+            font-family: sans-serif;
+        }
+
+        /* Left Sidebar Styling */
+        .sidebar {
+            width: 250px;
+            min-width: 250px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-right: 2px solid #ccc;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .sidebar a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            padding: 8px;
+            border-radius: 4px;
+        }
+        .sidebar a:hover {
+            color: #007bff;
+            background-color: #e9ecef;
+        }
+
+        /* Right Side Content Area */
+        .content {
+            flex: 1;
+            padding: 20px 40px;
+            background-color: #ffffff;
+            position: relative; /* Buttons ko top right set karne ke liye */
+        }
+
+        /* Login/Sign Up Buttons ka dabba */
+        .top-auth-forms {
+            float: right; 
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .auth-btn {
+            text-decoration: none;
+            padding: 8px 16px;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 4px;
+            border: 1px solid #007bff;
+        }
+        .login-btn { color: #007bff; background: transparent; }
+        .signup-btn { color: white; background: #007bff; }
+
+        /* --- MOBILE VIEW (Sirf mobile par design badlega) --- */
+        @media (max-width: 768px) {
+            .main-container { flex-direction: column; }
+          
+
+            .sidebar {
+                width: 100%;
+                min-width: 100%;
+                border-right: none;
+                border-bottom: 2px solid #ccc;
+                text-align: center;
+                box-sizing: border-box;
+            }
+            .sidebar a {
+                display: inline-block;
+                background: #ffffff;
+                margin: 4px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            }
+            .content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. Sab se pehle main container shuru hoga -->
+    <div class="main-container">
+
+        <!-- 2. Left Side: Sidebar links -->
+        <div class="sidebar">
+            <h4 style="margin-top:0;">Navigation pages:</h4>
+            <a href="htmlhome.html">Basic Concepts</a>
+            <a href="htmladvance.html">Advanced Concepts</a>
+            <a href="htmlproadvance.html">Pro-advanced concepts</a>
+            <a href="ExpertLevelHTMLconcepts!.html">Expert-level concepts</a>
+            <a href="HTMLVideoTutorial.html">Video Tutorial & Web Reference Hub</a>
+        </div>
+
+        <!-- 3. Right Side: Poora Content Area (Iske andar saara text aayega) -->
+        <div class="content">
+            
+            <!-- Login aur Sign Up buttons top-right par fix hain -->
+            <div class="top-auth-forms">
+                <a href="login.html" class="auth-btn login-btn">Login</a>
+                <a href="signup.html" class="auth-btn signup-btn">Sign Up</a>
+            </div>
+
+            <!-- Main Heading aur Intro -->
+             <br><br><br><br>
+            <center>
+                <h1 style="margin-top: 0;">HTML5 Crash course for students</h1>
+                <h3>Welcome! This page helps students learn the basic Concepts, tags, tables and forms of HTML quickly</h3>
+            </center>
+            <hr><br>
+            
+
+            <h2>What is HTML?</h2>
+            <p>HTML (Hypertext Markup Language) is the standard code used to build the structure of a web page. It acts as the skeleton of a website, telling the browser how to display text, images, links, and other content.</p>
+            
+            <h2>First HTML file</h2>
+            <p><strong>index.html</strong></p>
+            <p>It is the default name for a website's homepage</p>
+            
+            <h2>HTML tag</h2>
+            <p>A container for some content or other HTML tags</p>
+            <p><code>&lt;p&gt; This is paragraph tag&lt;/p&gt;</code></p>
+            <br>
+            
+            <h2>Basic HTML page</h2>
+            <p>
+                &lt;!DOCTYPE html&gt; <br>  
+                &lt;html&gt;<br>
+                &lt;head&gt;<br>
+                &lt;title&gt; MY first page&lt;/title&gt;<br>
+                &lt;/head&gt;<br>
+                &lt;p&gt; Hello world!&lt;/p&gt;<br>
+                &lt;/body&gt;<br>
+                &lt;/html&gt;<br>
+            </p>
+            <hr>
+            
+            <h3>Quick points</h3>
+            <ul>
+                <li>HTML is a parent of head & body tag.</li>
+                <li>Most of HTML elements have opening & closing tags with content in between.</li>
+                <li>Some tags have no content in between, eg: &lt;br&gt;.</li>
+                <li>We can use inspect element or view page source to edit html.</li>
+            </ul>
+
+            <h3>Comments in HTML</h3>
+            <p>This is a part of code that should not be parsed.<br>
+                <code>&lt;!--- This is an HTML Comment----&gt;</code>
+            </p>
+            
+            <h3>HTML is NOT case sensitive</h3>
+            <p>
+                &lt;html&gt; = &lt;HTML&gt;<br>
+                &lt;p&gt; = &lt;P&gt;<br>
+                &lt;head&gt; = &lt;HEAD&gt;<br>
+                &lt;body&gt; = &lt;BODY&gt;<br>
+            </p>
+            <br>
+            </div>
+        </body>
+        </html>
+        
