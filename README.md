@@ -10,6 +10,17 @@ Welcome to my Web Development journey! This repository contains my personal port
 
 ## 🛠️ Tech Used
 - **HTML5** (100% Core Structure)
+- ## 🚀 Update: CSS Journey Started!
+I have successfully completed the core fundamentals of HTML and built the basic structure of this portfolio. Now, I have officially started learning **CSS** to style my projects! 
+
+### What I've learned & applied so far:
+- **Selectors:** Element, Class, ID, and Universal selectors
+- **Styling:** Inline, Internal, and External stylesheets
+- **Colors:** Working with background/foreground colors and HEX color systems
+- **Concepts:** CSS Specificity and Priority rules
+
+*Next goal: Mastering the CSS Box Model (Margins & Paddings) and Layouts (Flexbox)!*
+
 
 ## 🔗 Live Link
 You can view my live working portfolio here:
