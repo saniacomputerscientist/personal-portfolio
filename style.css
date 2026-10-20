@@ -1,0 +1,76 @@
+/* 1. Universal Selector: Poore page ka font set karne ke liye */
+* {
+    font-family: sans-serif;
+}
+
+/* 2. Element Selector: Poori website ka background aur text color */
+body {
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+}
+
+
+/* 3. Heading Selectors: Tittle aur subheadings ko bright color dena */
+h1, h2, h3 {
+    color: #00fff0 !important;
+}
+p {
+    color: #e0e0e0 !important; /* Is se paragraph aur baqi sara text light gray ho jayega */
+}
+/* 4. Link/Button Selector: Aap ke top par "Contact Me" aur "My Projects" links hain */
+a {
+    color: #00fff0;
+    text-decoration: none; /* Is se links ke neechay se line khatam ho jayegi */
+}
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px; 
+}
+
+    }
+
+    /* Links ko chota karne aur laptop par right side par rakhne ke liye */
+    .portfolio-nav {
+        display: flex;
+        justify-content: flex-end; /* Right side alignment */
+        padding: 20px 40px 0 0; /* Upar aur right side se spacing */
+        gap: 15px; /* Dono links ke darmiyan fasla */
+    }
+
+    /* Links ko chota aur pyara button banane ke liye style */
+    .portfolio-nav a {
+        text-decoration: none;
+        font-size: 14px; /* Size chota kar diya ha */
+        font-weight: bold;
+        color: #007bff;
+        padding: 6px 12px; /* Dabba chota karne ke liye padding kam kar di */
+        border: 1px solid #007bff;
+        border-radius: 4px;
+        background-color: #ffffff;
+        transition: 0.2s;
+    }
+            /* Mobile par heading ka size chota karne ke liye taake ek line mein aaye */
+        h1 {
+            font-size: 24px !important;
+            white-space: nowrap; /* Yeh line text ko zabardasti tootne se rokegi */
+        }
+
+
+    .portfolio-nav a:hover {
+        background-color: #007bff;
+        color: white;
+    }
+
+    /* --- MOBILE VIEW (768px se kam screen) --- */
+    @media (max-width: 768px) {
+        .portfolio-nav {
+            justify-content: flex-end; /* Mobile par bhi bilkul right side par rahenge */
+            padding: 15px 15px 0 0; /* Mobile ke mutabiq spacing */
+            gap: 10px;
+        }
+        .portfolio-nav a {
+            font-size: 12px; /* Mobile par aur chote ho jayenge */
+            padding: 5px 10px;
+        }
+    }

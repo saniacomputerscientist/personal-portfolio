@@ -1,0 +1,145 @@
+* {
+    font-family: sans-serif;
+}
+
+/* 2. Element Selector: Poori website ka background aur text color */
+body {
+    background-color: #1a1a2e !important;
+    color: #e0e0e0 !important;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+
+/* 1. Poore page aur sabhi background containers ko dark navy blue karne ke liye */
+body, main, div, section, article {
+    background-color: #1a1a2e !important;
+}
+
+/* 2. Left side wale Navigation menu ka background thoda alag (dark gray) karne ke liye */
+/* (Taki sidebar main content se thoda alag aur saaf nazar aaye) */
+nav, aside, .sidebar, ul {
+    background-color: #161626 !important;
+}
+
+/* 3. Tamam links aur navigation text ko bright aur visible karne ke liye */
+a, li a, .navigation-sidebar-selector a {
+    color: #00fff0 !important;
+    text-decoration: none;
+}
+
+/* 4. Paragraph text ko bilkul clear white/gray karne ke liye */
+p, li, span, small {
+    color: #e0e0e0 !important;
+}
+
+/* 5. Headings ko mazid bright karne ke liye */
+h1, h2, h3, h4, h5, h6 {
+    color: #00fff0 !important;
+}
+
+
+}
+p {
+    color: #e0e0e0 !important; /* Is se paragraph aur baqi sara text light gray ho jayega */
+}
+/* 4. Link/Button Selector: Aap ke top par "Contact Me" aur "My Projects" links hain */
+a {
+    color: #00fff0;
+    text-decoration: none; /* Is se links ke neechay se line khatam ho jayegi */
+}
+     
+        /* Pura Main Page Layout */
+        .main-container {
+            display: flex;
+            min-height: 100vh;
+            font-family: sans-serif;
+        }
+
+        /* Left Sidebar Styling */
+        .sidebar {
+            width: 250px;
+            min-width: 250px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-right: 2px solid #ccc;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .sidebar a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            padding: 8px;
+            border-radius: 4px;
+        }
+        .sidebar a:hover {
+            color: #007bff;
+            background-color: #e9ecef;
+        }
+
+        /* Right Side Content Area */
+        .content {
+            flex: 1;
+            padding: 20px 40px;
+            background-color: #ffffff;
+            position: relative; /* Buttons ko top right set karne ke liye */
+        }
+
+        /* Login/Sign Up Buttons ka dabba */
+        .top-auth-forms {
+            float: right; 
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .auth-btn {
+            text-decoration: none;
+            padding: 8px 16px;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 4px;
+            border: 1px solid #007bff;
+        }
+        .login-btn { color: #007bff; background: transparent; }
+        .signup-btn { color: white; background: #007bff; }
+    @media (max-width: 768px) {
+            .main-container { flex-direction: column; }
+          
+
+            .sidebar {
+                width: 100%;
+                min-width: 100%;
+                border-right: none;
+                border-bottom: 2px solid #ccc;
+                text-align: center;
+                box-sizing: border-box;
+            }
+            .sidebar a {
+                display: inline-block;
+                background: #ffffff;
+                margin: 4px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            }
+            .content {
+                padding: 20px;
+            }
+        }
+   /* Login aur Sign Up buttons ko white background dene ke liye */
+/* Login aur Sign Up links/buttons ko perfect white look dene ke liye */
+a[href*="login"], a[href*="signup"], .login-btn, .signup-btn, button {
+    background-color: #ffffff !important; /* Button ka background bilkul white */
+    color: #1a1a2e !important;            /* Text ka color dark navy blue/black */
+    padding: 8px 16px !important;         /* Button ke andar thoda fasla (padding) */
+    border-radius: 4px !important;        /* Koono ko soft karne ke liye */
+    border: none !important;              /* Purani koi ajeeb boundary hatane ke liye */
+    display: inline-block !important;
+    font-weight: bold !important;         /* Text ko mota aur wazih karne ke liye */
+}
+
+ 
