@@ -41,7 +41,7 @@ a {
     /* Links ko chota aur pyara button banane ke liye style */
     .portfolio-nav a {
         text-decoration: none;
-        font-size: 14px; /* Size chota kar diya ha */
+        font-size: 22px; /* Size chota kar diya ha */
         font-weight: bold;
         color: #007bff;
         padding: 6px 12px; /* Dabba chota karne ke liye padding kam kar di */
