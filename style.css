@@ -79,4 +79,13 @@ a {
     flex-wrap: wrap; /* Yeh line buttons ko jagah kam hone par niche le aayegi */
     gap: 10px;       /* Is se buttons ke darmiyan gap rahega */
 }
+@media (max-width: 600px) {
+    /* Mobile ke liye settings */
+    .your-button-class {
+        display: block;   /* Buttons ko ek doosre ke niche lane ke liye */
+        width: 100%;      /* Buttons poori screen par phail jayenge */
+        margin-bottom: 10px;
+    }
+}
+
 
