@@ -65,27 +65,16 @@ a {
     /* --- MOBILE VIEW (768px se kam screen) --- */
     @media (max-width: 768px) {
         .portfolio-nav {
-            justify-content: flex-end; /* Mobile par bhi bilkul right side par rahenge */
+            display:flex
+            justify-content: center; /* Mobile par bhi bilkul right side par rahenge */
             padding: 15px 15px 0 0; /* Mobile ke mutabiq spacing */
             gap: 10px;
+            flex-wrap:wrap;
         }
         .portfolio-nav a {
             font-size: 12px; /* Mobile par aur chote ho jayenge */
             padding: 5px 10px;
         }
     }
-.your-buttons-container {
-    display: flex;
-    flex-wrap: wrap; /* Yeh line buttons ko jagah kam hone par niche le aayegi */
-    gap: 10px;       /* Is se buttons ke darmiyan gap rahega */
-}
-@media (max-width: 600px) {
-    /* Mobile ke liye settings */
-    .your-button-class {
-        display: block;   /* Buttons ko ek doosre ke niche lane ke liye */
-        width: 100%;      /* Buttons poori screen par phail jayenge */
-        margin-bottom: 10px;
-    }
-}
 
 
