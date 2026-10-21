@@ -36,7 +36,7 @@ a {
         box-sizing: border-box;
         display: flex;
         justify-content: flex-end ; /* Right side alignment */
-        padding: 20px 40px 0 0; /* Upar aur right side se spacing */
+        padding: 20px 20px 0 0; /* Upar aur right side se spacing */
         gap: 15px; /* Dono links ke darmiyan fasla */
     }
 
