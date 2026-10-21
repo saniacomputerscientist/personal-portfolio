@@ -33,7 +33,7 @@ a {
     /* Links ko chota karne aur laptop par right side par rakhne ke liye */
     .portfolio-nav {
         display: flex;
-        justify-content: flex-end; /* Right side alignment */
+        justify-content: flex-end !important; /* Right side alignment */
         padding: 20px 40px 0 0; /* Upar aur right side se spacing */
         gap: 15px; /* Dono links ke darmiyan fasla */
     }
