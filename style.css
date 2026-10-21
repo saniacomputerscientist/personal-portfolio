@@ -32,8 +32,10 @@ a {
 
     /* Links ko chota karne aur laptop par right side par rakhne ke liye */
     .portfolio-nav {
+        width:100%;
+        box-sizing: border-box;
         display: flex;
-        justify-content: flex-end !important; /* Right side alignment */
+        justify-content: flex-end ; /* Right side alignment */
         padding: 20px 40px 0 0; /* Upar aur right side se spacing */
         gap: 15px; /* Dono links ke darmiyan fasla */
     }
@@ -65,6 +67,8 @@ a {
     /* --- MOBILE VIEW (768px se kam screen) --- */
     @media (max-width: 768px) {
         .portfolio-nav {
+            width:100%;
+            box-sizing:border-box;
             display:flex;
             justify-content: flex-end; /* Mobile par bhi bilkul right side par rahenge */
             padding: 15px 15px 0 0; /* Mobile ke mutabiq spacing */
