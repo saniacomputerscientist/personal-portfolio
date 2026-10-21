@@ -35,6 +35,7 @@ a {
         width:100%;
         box-sizing: border-box;
         display: flex;
+        position:absolute;
         justify-content: flex-end ; /* Right side alignment */
         padding: 20px 20px 0 0; /* Upar aur right side se spacing */
         gap: 15px; /* Dono links ke darmiyan fasla */
@@ -67,6 +68,7 @@ a {
     /* --- MOBILE VIEW (768px se kam screen) --- */
     @media (max-width: 768px) {
         .portfolio-nav {
+            position: static;
             width:100%;
             box-sizing:border-box;
             display:flex;
