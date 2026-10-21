@@ -65,9 +65,9 @@ a {
     /* --- MOBILE VIEW (768px se kam screen) --- */
     @media (max-width: 768px) {
         .portfolio-nav {
-            display:flex
-            justify-content: center; /* Mobile par bhi bilkul right side par rahenge */
-            padding: 15px 15px 0 0; /* Mobile ke mutabiq spacing */
+            display:flex !important;
+            justify-content: flex-end !important; /* Mobile par bhi bilkul right side par rahenge */
+            padding: 15px 15px 0 0 !important; /* Mobile ke mutabiq spacing */
             gap: 10px;
             flex-wrap:wrap;
         }
