@@ -30,13 +30,13 @@ You can view my live working portfolio here:
 "Excited to share that I have officially joined the Google Developer Program! Looking forward to exploring advanced cloud tools, building web projects, and growing my skills in HTML5, CSS, and beyond. You can check out my official builder hub profile here: ---
 ### 🌐 Connect with me / Profiles
 * 🚀 Check out my official: http://g.dev/saniacomputerscientist - Member of the Google Developer Program.
-* 
-###🌱 Currently Learning
+
+🌱 Currently Learning
 
 • Recently started the Responsive Web Design Certification on freeCodeCamp to strengthen my core skills in Flexbox, CSS Grid, Accessibility, and Mobile-First Design.
 • Continuously updating and improving this portfolio as I learn new concepts and build more projects!
 
-###📬 Connect With Me
+📬 Connect With Me
 
 • LinkedIn: Sania Shaukat
 • GitHub: @saniacomputerscientist
