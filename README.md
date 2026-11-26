@@ -40,7 +40,9 @@ You can view my live working portfolio here:
 
 
 • LinkedIn: [Sania Shaukat](www.linkedin.com/in/sania-shoukat-dev)
+
 • GitHub: [@saniacomputerscientist](https://github.com/saniacomputerscientist)
+
 • Google Developer Profile: [My Profile](https://g.dev/saniacomputerscientist)
 
 
