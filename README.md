@@ -38,8 +38,13 @@ You can view my live working portfolio here:
 
 ### 📬 Connect With Me
 
+
+📫 Connect With Me
+
 • LinkedIn: Sania Shaukat
 • GitHub: @saniacomputerscientist
+• Google Developer Profile: g.dev/saniacomputerscientist
+
 
 
 
