@@ -37,10 +37,6 @@ You can view my live working portfolio here:
 • Continuously updating and improving this portfolio as I learn new concepts and build more projects!
 
 ### 📬 Connect With Me
-
-
-📫 Connect With Me
-
 • LinkedIn: Sania Shaukat
 • GitHub: @saniacomputerscientist
 • Google Developer Profile: g.dev/saniacomputerscientist
